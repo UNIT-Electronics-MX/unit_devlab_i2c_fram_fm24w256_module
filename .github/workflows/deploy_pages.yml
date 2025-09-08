@@ -1,0 +1,59 @@
+name: 📄 Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'docs/**'
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["🚀 Build Professional Documentation"]
+    types:
+      - completed
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name != 'workflow_run' }}
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      
+      - name: Check docs directory
+        run: |
+          if [ ! -d "./docs" ]; then
+            echo "❌ docs directory not found, creating it with a placeholder"
+            mkdir -p docs
+            echo "<!DOCTYPE html><html><head><title>Documentation</title></head><body><h1>Documentation is being built...</h1><p>Please wait for the build process to complete.</p></body></html>" > docs/index.html
+          else
+            echo "✅ docs directory found"
+            ls -la docs/
+          fi
+        
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        with:
+          enablement: true
+        
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './docs'
+          
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
