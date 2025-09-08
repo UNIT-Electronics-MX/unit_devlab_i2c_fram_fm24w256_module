@@ -60,14 +60,7 @@ El formato se mantendrá automáticamente en el PDF generado.
 ## Features
 
 <!-- FILL HERE -->
-- **Touch-only sensing**: No physical press required – reacts to proximity of a finger.    
-- **Fast response**: < 80 ms touch detection time.  
-- **Auto-calibration**: Compensates for environmental changes and drift.  
-- **Selectable modes**: Momentary or toggle output (via solder-jumper on the board).  
-- **On-board pull-up/down**: Ensures clean digital output.  
-- **Mounting holes**: Two M3 screw holes for easy panel integration.  
-- **JST PH-2.0 connector**: Quick-disconnect cable interface.
-
+- 
 
 
 
