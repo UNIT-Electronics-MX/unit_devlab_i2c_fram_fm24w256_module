@@ -23,6 +23,11 @@ The FM24W256 module integrates a 256Kbit (32K x 8) I2C FRAM (Ferroelectric RAM) 
 |:--------:|:----:|
 | FM24W256 Datasheet | [Link](https://www.infineon.com/assets/row/public/documents/10/49/infineon-fm24w256-256-kbit-32k-x-8-serial-i2c-f-ram-datasheet-en.pdf?fileId=8ac78c8c7d0d8da4017d0ec9dd494223) |
 
+## Key Features
+
+- **High Endurance**: Supports up to 10^14 read/write cycles, far exceeding traditional EEPROM.
+- **Fast Access Times**: Typical write cycle time of 10 µs and read cycle time of 150 ns.
+- **Low Power Consumption**: Operates at 2.7
 
 ## Typical Applications
 
