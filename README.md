@@ -23,12 +23,6 @@ The FM24W256 module integrates a 256Kbit (32K x 8) I2C FRAM (Ferroelectric RAM) 
 |:--------:|:----:|
 | FM24W256 Datasheet | [Link](https://www.infineon.com/assets/row/public/documents/10/49/infineon-fm24w256-256-kbit-32k-x-8-serial-i2c-f-ram-datasheet-en.pdf?fileId=8ac78c8c7d0d8da4017d0ec9dd494223) |
 
-## Features
-
-- FM24W256 I2C FRAM for dependable non-volatile memory storage
-- Standard I2C (2-wire) interface for straightforward system integration
-- Broad operating voltage: 2.7V to 5.5V for flexible power compatibility
-- Supports fast I2C communication up to 400 kHz
 
 ## Typical Applications
 

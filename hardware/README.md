@@ -4,6 +4,16 @@
 <a href="{{schematic_url}}"><img src="resources/Schematics_icon.jpg?raw=false" width="200px"><br/>Schematic</a>
 </div>
 
+
+## 📦 Overview
+
+| Feature                                              | Description                                              |
+|------------------------------------------------------|----------------------------------------------------------|
+| Memory Type                                          | FM24W256 I2C FRAM for dependable non-volatile storage    |
+| Interface                                            | Standard I2C (2-wire) for straightforward integration    |
+| Operating Voltage                                    | 2.7V to 5.5V for flexible power compatibility            |
+| I2C Speed                                            | Supports fast communication up to 400 kHz                |
+
 ## 🔌 Pinout
 
 <div align="center">
