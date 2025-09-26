@@ -13,8 +13,8 @@ The FM24W256 module integrates a 256Kbit (32K x 8) I2C FRAM (Ferroelectric RAM) 
 </div>
 
 <div align="center">
-  <img src="hardware/resources/board_image.png" width="450px" alt="Product Image">
-  <p><em>[Insert product name or logo]</em></p>
+  <img src="./hardware/resources/unit_top_v_1_0_0_ue0111_fm24w256_fram_module.png" width="450px" alt="Product Image">
+  <p><em>FM24W256 I2C FRAM Module</em></p>
 </div>
 
 ## Resources
