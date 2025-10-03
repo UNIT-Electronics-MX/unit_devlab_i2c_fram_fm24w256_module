@@ -5,7 +5,7 @@
 </div>
 
 
-## 📦 Overview
+## Overview
 
 | Feature                                              | Description                                              |
 |------------------------------------------------------|----------------------------------------------------------|
@@ -14,7 +14,7 @@
 | Operating Voltage                                    | 2.7V to 5.5V for flexible power compatibility            |
 | I2C Speed                                            | Supports fast communication up to 400 kHz                |
 
-## 🔌 Pinout
+## Pinout
 
 <div align="center">
     <a href="#"><img src="resources/unit_pinout_v_0_0_1_ue0094_icp10111_barometric_pressure_sensor_en.jpg" width="500px"><br/>Pinout</a>
@@ -30,13 +30,13 @@
 
 </div>
 
-## 📏 Dimensions
+## Dimensions
 
 <div align="center">
 <a href="./resources/unit_dimension_v_1_0_0_ue0111_fm24w256_fram_module.png"><img src="./resources/unit_dimension_v_1_0_0_ue0111_fm24w256_fram_module.png" width="500px"><br/> Dimensions</a>
 </div>
 
-## 📃 Topology
+## Topology
 
 <div align="center">
 
