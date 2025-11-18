@@ -37,7 +37,7 @@
 | NVc | Endurance | 10^14 | - | - | Cycles |
 </div>
 
-*<b>Note: </b> Data retention depends on the ambient temperature, for more information please refer to FM24W256 manufacturer datasheet.
+**Note:** Data retention depends on the ambient temperature, for more information please refer to FM24W256 manufacturer datasheet.
 
 ## Pinout
 
