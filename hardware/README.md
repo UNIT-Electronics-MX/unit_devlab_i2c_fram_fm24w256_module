@@ -33,11 +33,11 @@
 |    Vih    |     Input High voltage      |    0.7xVdd    |   -    |   Vdd+0.3   |    V    |
 |      Vil      |    Input Low voltage     |    -0.3    |    -    |  0.3xVdd   |    V     |
 |      Vol      |            Output Low voltage             |    -    |    -    |  0.4V   |    V     |
-|     Tdr(1)     |              Data retention              |    10    | -  |    151    |   Years   |
+|     Tdr*     |              Data retention              |    10    | -  |    151    |   Years   |
 | NVc | Endurance | 10^14 | - | - | Cycles |
-
-
 </div>
+
+*<b>Note: </b> Data retention depends on the ambient temperature, for more information please refer to FM24W256 manufacturer datasheet.
 
 ## Pinout
 
@@ -65,8 +65,6 @@
 ## Topology
 
 <div align="center">
-
-<div align="center">
 <a href="./resources/unit_topology_v_1_0_0_ue0111_fm24w256_fram_module.png"><img src="./resources/unit_topology_v_1_0_0_ue0111_fm24w256_fram_module.png" width="500px"><br/> Topology</a>
 <br/>
 <br/>
@@ -90,4 +88,4 @@
 
 # References
 
-- [{{datasheet_name}}]({{datasheet_url}})
+- <a href="https://www.infineon.com/assets/row/public/documents/10/49/infineon-fm24w256-256-kbit-32k-x-8-serial-i2c-f-ram-datasheet-en.pdf?fileId=8ac78c8c7d0d8da4017d0ec9dd494223"> FM24W256 Datasheet </a>
