@@ -4,8 +4,9 @@
 <a href="./unit_sch_v_1_0_0_ue0111_fm24w256_fram_module.pdf"><img src="resources/Schematics_icon.jpg?raw=false" width="200px"><br/>Schematic</a>
 </div>
 
-
 ## Overview
+
+<div align="center">
 
 | Feature                                              | Description                                              |
 |------------------------------------------------------|----------------------------------------------------------|
@@ -14,6 +15,30 @@
 | Operating Voltage                                    | 2.7V to 5.5V for flexible power compatibility            |
 | I2C Speed                                            | Supports fast communication up to 400 kHz                |
 
+</div>
+
+## Technical Specifications
+
+### Electrical Characteristics
+
+<div align="center">
+
+| **Parameter** |              **Description**               | **Min** | **Typ** | **Max** | **Unit** |
+|:-------------:|:------------------------------------------:|:-------:|:-------:|:-------:|:--------:|
+|      Vdd      |    Input voltage to power on the module    |   2.7   |   3.3   |   5.5   |    V     |
+|      Idd      |               Supply current               |    100    |    -    |   400   |    uA    |
+|      Ili      | Input Leakage Current (Except WP and A2-A0) |   -1    |    0    |   +1    |    uA    |
+| | Input Leakage Current (for WP and A2-A0) |-1  | - | +100 | uA |  
+|      Ilo      | Output Leakage Current (Except WP and A2-A0) |   -1    |    0    |   +1    |    uA    |
+|    Vih    |     Input High voltage      |    0.7xVdd    |   -    |   Vdd+0.3   |    V    |
+|      Vil      |    Input Low voltage     |    -0.3    |    -    |  0.3xVdd   |    V     |
+|      Vol      |            Output Low voltage             |    -    |    -    |  0.4V   |    V     |
+|     Tdr(1)     |              Data retention              |    10    | -  |    151    |   Years   |
+| NVc | Endurance | 10^14 | - | - | Cycles |
+
+
+</div>
+
 ## Pinout
 
 <div align="center">
@@ -21,19 +46,20 @@
     <br/>
     <br/>
     <br/>
-    
-
-| Pin Label | Function    | Notes                             |
-|-----------|-------------|-----------------------------------|
-| VCC       | Power Supply| 3.3V or 5V                       |
-| GND       | Ground      | Common ground for all components  |
-
 </div>
 
-## Dimensions
-
 <div align="center">
-<a href="./resources/unit_dimension_v_1_0_0_ue0111_fm24w256_fram_module.png"><img src="./resources/unit_dimension_v_1_0_0_ue0111_fm24w256_fram_module.png" width="500px"><br/> Dimensions</a>
+
+### Pin & Connector Layout
+| Pin   | Voltage Level | Function                                                  |
+|-------|---------------|-----------------------------------------------------------|
+| VCC   | 3.3 V – 5.5 V | Provides power to the on-board regulator and sensor core. |
+| GND   | 0 V           | Common reference for power and signals.                   |
+| SDA   | 1.8 V to VCC  | Serial data line for I²C communications.                  |
+| SCL   | 1.8 V to VCC  | Serial clock line for I²C communications.                 |
+
+> **Note:** The module also includes a Qwiic/STEMMA QT connector carrying the same four signals (VCC, GND, SDA, SCL) for effortless daisy-chaining.
+
 </div>
 
 ## Topology
@@ -56,23 +82,11 @@
 | J2   | QWIIC Connector (JST 1 mm pitch) for I2C |
 </div>
 
-## Pin & Connector Layout
-| Pin   | Voltage Level | Function                                                  |
-|-------|---------------|-----------------------------------------------------------|
-| VCC   | 3.3 V – 5.5 V | Provides power to the on-board regulator and sensor core. |
-| GND   | 0 V           | Common reference for power and signals.                   |
-| SDA   | 1.8 V to VCC  | Serial data line for I²C communications.                  |
-| SCL   | 1.8 V to VCC  | Serial clock line for I²C communications.                 |
+## Dimensions
 
-> **Note:** The module also includes a Qwiic/STEMMA QT connector carrying the same four signals (VCC, GND, SDA, SCL) for effortless daisy-chaining.
-
-## Functional Description
-
-{{functional_description}}
-
-## Applications
-
-{{applications_list}}
+<div align="center">
+<a href="./resources/unit_dimension_v_1_0_0_ue0111_fm24w256_fram_module.png"><img src="./resources/unit_dimension_v_1_0_0_ue0111_fm24w256_fram_module.png" width="500px"><br/> Dimensions</a>
+</div>
 
 # References
 

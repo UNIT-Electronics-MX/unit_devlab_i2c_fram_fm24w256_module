@@ -47,9 +47,19 @@ The FM24W256 module integrates a 256Kbit (32K x 8) I2C FRAM (Ferroelectric RAM) 
 | Data Retention               | 151 years                          |
 | Operating Temperature Range  | -40°C to +85°C                     |
 
-
-
 </div>
+
+I2C address: 
+- 0x50
+- 0x51
+- 0x52
+- 0x53
+- 0x54
+- 0x55
+- 0x56
+- 0x57
+ 
+Note: The address is configurable via a DIP switch.
 
 ## Applications
 - Extending I2C communication range
