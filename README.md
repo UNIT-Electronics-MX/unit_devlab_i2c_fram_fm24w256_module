@@ -3,7 +3,6 @@
 
 <div align="center">
 
-## Introduction
 </div>
 
 The FM24W256 module integrates a 256Kbit (32K x 8) I2C FRAM (Ferroelectric RAM) chip, providing a robust and efficient non-volatile memory solution for embedded applications. Designed for high-speed data access and low power operation, the module supports frequent and rapid read/write cycles with exceptional endurance. Unlike traditional EEPROM and other non-volatile memories, the FM24W256 ensures reliable data retention for up to 151 years, while minimizing system complexity and eliminating common reliability concerns. This makes it particularly suitable for data logging, configuration storage, and real-time data buffering in demanding embedded environments.
@@ -24,6 +23,7 @@ The FM24W256 module integrates a 256Kbit (32K x 8) I2C FRAM (Ferroelectric RAM) 
 
 ### Quick Setup
 
+<div align="center">
 
 [<img src="https://img.shields.io/badge/Product%20Wiki-blue?style=for-the-badge" alt="Product Wiki">](#)
 [<img src="https://img.shields.io/badge/Datasheet-green?style=for-the-badge" alt="Datasheet">](#)

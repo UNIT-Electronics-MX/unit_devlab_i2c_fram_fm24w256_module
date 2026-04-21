@@ -4,6 +4,10 @@
 <a href="./unit_sch_v_1_0_0_ue0111_fm24w256_fram_module.pdf"><img src="resources/Schematics_icon.jpg?raw=false" width="200px"><br/>Schematic</a>
 </div>
 
+
+
+## Technical 
+
 ## Overview
 
 <div align="center">
@@ -16,8 +20,6 @@
 | I2C Speed                                            | Supports fast communication up to 400 kHz                |
 
 </div>
-
-## Technical Specifications
 
 ### Electrical Characteristics
 
@@ -53,10 +55,10 @@
 ### Pin & Connector Layout
 | Pin   | Voltage Level | Function                                                  |
 |-------|---------------|-----------------------------------------------------------|
-| VCC   | 3.3 V – 5.5 V | Provides power to the on-board regulator and sensor core. |
+| VCC   | 2.7 V – 5.5 V | Provides power to the module.                             |
 | GND   | 0 V           | Common reference for power and signals.                   |
-| SDA   | 1.8 V to VCC  | Serial data line for I²C communications.                  |
-| SCL   | 1.8 V to VCC  | Serial clock line for I²C communications.                 |
+| SDA   | 2.7 V to VCC  | Serial data line for I²C communications.                  |
+| SCL   | 2.7 V to VCC  | Serial clock line for I²C communications.                 |
 
 > **Note:** The module also includes a Qwiic/STEMMA QT connector carrying the same four signals (VCC, GND, SDA, SCL) for effortless daisy-chaining.
 
