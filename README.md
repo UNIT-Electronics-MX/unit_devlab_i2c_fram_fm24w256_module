@@ -50,14 +50,21 @@ The FM24W256 module integrates a 256Kbit (32K x 8) I2C FRAM (Ferroelectric RAM) 
 </div>
 
 I2C address: 
-- 0x50
-- 0x51
-- 0x52
-- 0x53
-- 0x54
-- 0x55
-- 0x56
-- 0x57
+
+<div align="center">
+
+| A2 | A1 | A0 | Address |
+|----|----|----|---------|
+| 0  | 0  | 0  | 0x50    |
+| 0  | 0  | 1  | 0x51    |
+| 0  | 1  | 0  | 0x52    |
+| 0  | 1  | 1  | 0x53    |
+| 1  | 0  | 0  | 0x54    |
+| 1  | 0  | 1  | 0x55    |
+| 1  | 1  | 0  | 0x56    |
+| 1  | 1  | 1  | 0x57    |
+</div>
+
  
 Note: The address is configurable via a DIP switch.
 
